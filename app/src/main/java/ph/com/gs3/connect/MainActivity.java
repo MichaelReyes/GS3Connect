@@ -142,6 +142,7 @@ public class MainActivity extends Activity implements MainViewFragment.MainViewF
         });
     }
 
+    //<editor-fold desc="Broadcast Receivers">
     private BroadcastReceiver wifiDirectBroadcastReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
@@ -194,5 +195,6 @@ public class MainActivity extends Activity implements MainViewFragment.MainViewF
 
         }
     };
+    //</editor-fold>
 
 }
